@@ -136,7 +136,6 @@ const Filters = () => {
           <button className="px-3 py-2 rounded bg-red-500 text-white" onClick={()=> setFilters({
             topic:[],sector:[],region:[],country:[],city:[],pestle:[],source:[],swot:[],end_year:"",minIntensity:"",maxIntensity:"",minLikelihood:"",maxLikelihood:"",minRelevance:"",maxRelevance:""
           })}>Reset</button>
-          <button className="px-3 py-2 rounded bg-primary text-white" onClick={()=>{ debug(); }}>Debug</button>
         </div>
       </div>
     </div>
