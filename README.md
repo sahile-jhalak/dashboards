@@ -91,34 +91,6 @@ MongoDB Atlas database
 
 Cleans and inserts JSON into MongoDB
 
-📁 Project Structure
-project-root/
-├── backend/
-│   ├── controllers/
-│   ├── models/
-│   ├── routes/
-│   ├── data/
-│   │   └── jsondata.json
-│   ├── server.js
-│   ├── package.json
-│   └── .env
-│
-├── frontend/
-│   ├── public/
-│   ├── src/
-│   │   ├── components/
-│   │   ├── charts/
-│   │   ├── layout/
-│   │   ├── contexts/
-│   │   ├── pages/
-│   │   ├── services/
-│   │   │   └── api.js
-│   │   ├── App.jsx
-│   │   └── main.jsx
-│   ├── package.json
-│   └── .env
-│
-└── README.md
 
 ⚙️ Installation & Setup
 1️⃣ Clone Repository
@@ -199,61 +171,3 @@ Paste into backend .env:
 
 MONGODB_URI=mongodb+srv://username:password@cluster.mongodb.net/dashboard
 
-🎨 TailwindCSS
-
-All styling uses Tailwind utilities.
-No extra CSS files needed.
-
-Example:
-
-className="p-4 bg-white dark:bg-gray-800 rounded-xl shadow"
-
-🔧 Troubleshooting
-❗ d3 version error
-npm install d3@7.8.5
-
-❗ Vite plugin-react issue
-npm install -D @vitejs/plugin-react
-
-❗ MongoDB "auth required"
-
-Check:
-
-Correct username/password
-
-IP whitelisted
-
-Database name included
-
-❗ Pie chart labels not visible
-
-Region slices too small
-
-Auto-positioned labels included
-
-🚀 Deployment
-Backend
-
-Render
-
-Railway
-
-Vercel Serverless
-
-Heroku
-
-Frontend
-
-Vercel (recommended)
-
-Netlify
-
-Firebase Hosting
-
-Update frontend .env before deploying:
-
-VITE_API_URL=your_backend_production_url
-
-📜 License
-
-MIT License — free for academic & personal use.
